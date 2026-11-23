@@ -1,0 +1,26 @@
+
+    h1{color: blue;
+    height: 150px;
+    width: 350px;
+    position: relative;
+    top: 0;
+    left:100vh;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    li{color: black;
+        height: 50px;
+        width: 100px;
+        position: absolute;
+        top: 0;
+        left: 50vh;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    h2:nth-of-type(2n):hover{
+    color: red; 
+    height: 150px; 
+    width: 350px; 
+    transition: 0.3ms }
